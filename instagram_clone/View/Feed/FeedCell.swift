@@ -23,6 +23,7 @@ struct FeedCell: View {
                     .font(.system(size: 14, weight: .semibold))
                                 
             }
+            .padding([.leading, .bottom], 8)
             
             // post image
             Image("鯛塩")
@@ -32,12 +33,12 @@ struct FeedCell: View {
                 .clipped()
             
             // action buttons
-            HStack(spacing: 8) {
+            HStack(spacing: 16) {
                 Button(action: {}) {
                     Image(systemName: "heart")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                     
@@ -47,7 +48,7 @@ struct FeedCell: View {
                     Image(systemName: "bubble.right")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                     
@@ -57,24 +58,32 @@ struct FeedCell: View {
                     Image(systemName: "paperplane")
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 28, height: 28)
+                        .frame(width: 20, height: 20)
                         .font(.system(size: 20))
                         .padding(4)
                     
                 }
                 
-            }.foregroundColor(.black)
+            }
+            .padding(.leading, 4)
+            .foregroundColor(.black)
+            
+            Text("3 likes")
+                .font(.system(size: 14, weight: .semibold))
+                .padding(.leading, 8)
+                .padding(.bottom, 2)
         
             // caption
             HStack {
                 Text("らぁめん 真風").font(.system(size: 14, weight: .semibold)) + Text("吉祥寺まで３時間歩いていったラーメン屋さん。塩味のさっぱりした美味しいラーメンだった。酢で味変がおすすめ。")
-            }
+            }.padding(.horizontal, 8)
             
             Text("2d")
                 .font(.system(size: 14))
                 .foregroundColor(.gray)
-                .padding(.top)
-        }
+                .padding(.leading, 8)
+                .padding(.top, -2)
+         }
     }
 }
 
