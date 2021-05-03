@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		280896B6263FAF7C0023A3B5 /* instagram_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280896B5263FAF7C0023A3B5 /* instagram_cloneApp.swift */; };
-		280896B8263FAF7C0023A3B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280896B7263FAF7C0023A3B5 /* ContentView.swift */; };
 		280896BA263FAF810023A3B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280896B9263FAF810023A3B5 /* Assets.xcassets */; };
 		280896BD263FAF810023A3B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 280896BC263FAF810023A3B5 /* Preview Assets.xcassets */; };
+		280896CE263FB0900023A3B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280896CD263FB0900023A3B5 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		280896B2263FAF7C0023A3B5 /* instagram_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instagram_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		280896B5263FAF7C0023A3B5 /* instagram_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instagram_cloneApp.swift; sourceTree = "<group>"; };
-		280896B7263FAF7C0023A3B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		280896B9263FAF810023A3B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		280896BC263FAF810023A3B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		280896BE263FAF810023A3B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		280896CD263FB0900023A3B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +52,12 @@
 		280896B4263FAF7C0023A3B5 /* instagram_clone */ = {
 			isa = PBXGroup;
 			children = (
+				280896C5263FAFF10023A3B5 /* Model */,
+				280896C6263FAFFC0023A3B5 /* View */,
+				280896C7263FB0050023A3B5 /* ViewModel */,
+				280896C8263FB0100023A3B5 /* API */,
+				280896C9263FB0190023A3B5 /* Utils */,
 				280896B5263FAF7C0023A3B5 /* instagram_cloneApp.swift */,
-				280896B7263FAF7C0023A3B5 /* ContentView.swift */,
 				280896B9263FAF810023A3B5 /* Assets.xcassets */,
 				280896BE263FAF810023A3B5 /* Info.plist */,
 				280896BB263FAF810023A3B5 /* Preview Content */,
@@ -67,6 +71,146 @@
 				280896BC263FAF810023A3B5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		280896C5263FAFF10023A3B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		280896C6263FAFFC0023A3B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				280896D8263FB1510023A3B5 /* Items */,
+				280896CC263FB0800023A3B5 /* Authentication */,
+				280896D1263FB0AB0023A3B5 /* Notifications */,
+				280896D2263FB0C40023A3B5 /* Search */,
+				280896D3263FB0CF0023A3B5 /* Comments */,
+				280896D5263FB0E40023A3B5 /* Feed */,
+				280896D7263FB1170023A3B5 /* Profile */,
+				280896D6263FB0F00023A3B5 /* UploadPhoto */,
+				280896CB263FB0730023A3B5 /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		280896C7263FB0050023A3B5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				280896DC263FB1960023A3B5 /* Profile */,
+				280896DB263FB18D0023A3B5 /* Authentication */,
+				280896DA263FB1810023A3B5 /* Notifications */,
+				280896D9263FB1770023A3B5 /* Feed */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		280896C8263FB0100023A3B5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		280896C9263FB0190023A3B5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		280896CB263FB0730023A3B5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				280896CD263FB0900023A3B5 /* ContentView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		280896CC263FB0800023A3B5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		280896D1263FB0AB0023A3B5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		280896D2263FB0C40023A3B5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		280896D3263FB0CF0023A3B5 /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
+		280896D5263FB0E40023A3B5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		280896D6263FB0F00023A3B5 /* UploadPhoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UploadPhoto;
+			sourceTree = "<group>";
+		};
+		280896D7263FB1170023A3B5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		280896D8263FB1510023A3B5 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		280896D9263FB1770023A3B5 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		280896DA263FB1810023A3B5 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		280896DB263FB18D0023A3B5 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		280896DC263FB1960023A3B5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				280896B8263FAF7C0023A3B5 /* ContentView.swift in Sources */,
+				280896CE263FB0900023A3B5 /* ContentView.swift in Sources */,
 				280896B6263FAF7C0023A3B5 /* instagram_cloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
