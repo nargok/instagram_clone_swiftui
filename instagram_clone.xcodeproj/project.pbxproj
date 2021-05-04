@@ -22,6 +22,7 @@
 		289CE0F72640FF6900F8E48B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F62640FF6900F8E48B /* PostGridView.swift */; };
 		289CE0FA2641125100F8E48B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F92641125100F8E48B /* UserCell.swift */; };
 		289CE0FD2641139B00F8E48B /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0FC2641139B00F8E48B /* UserListView.swift */; };
+		289CE101264119D900F8E48B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE100264119D900F8E48B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		289CE0F62640FF6900F8E48B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		289CE0F92641125100F8E48B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		289CE0FC2641139B00F8E48B /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		289CE100264119D900F8E48B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		280896C9263FB0190023A3B5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				289CE100264119D900F8E48B /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				289CE0FD2641139B00F8E48B /* UserListView.swift in Sources */,
 				280896DE263FB2340023A3B5 /* MainTabView.swift in Sources */,
 				289CE0F1263FC2D200F8E48B /* FeedCell.swift in Sources */,
+				289CE101264119D900F8E48B /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
