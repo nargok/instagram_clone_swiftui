@@ -14,7 +14,8 @@ struct SearchView: View {
             // search bar
             SearchBar(text: $searchText)
             
-            PostGridView()
+//            PostGridView()
+            UserListView()
         }
     }
 }

@@ -20,6 +20,8 @@
 		289CE0F1263FC2D200F8E48B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F0263FC2D200F8E48B /* FeedCell.swift */; };
 		289CE0F42640E6AB00F8E48B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F32640E6AB00F8E48B /* SearchBar.swift */; };
 		289CE0F72640FF6900F8E48B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F62640FF6900F8E48B /* PostGridView.swift */; };
+		289CE0FA2641125100F8E48B /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F92641125100F8E48B /* UserCell.swift */; };
+		289CE0FD2641139B00F8E48B /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0FC2641139B00F8E48B /* UserListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		289CE0F0263FC2D200F8E48B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		289CE0F32640E6AB00F8E48B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		289CE0F62640FF6900F8E48B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
+		289CE0F92641125100F8E48B /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		289CE0FC2641139B00F8E48B /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				289CE0F62640FF6900F8E48B /* PostGridView.swift */,
+				289CE0F92641125100F8E48B /* UserCell.swift */,
+				289CE0FC2641139B00F8E48B /* UserListView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -317,7 +323,9 @@
 				280896B6263FAF7C0023A3B5 /* instagram_cloneApp.swift in Sources */,
 				280896F7263FB49E0023A3B5 /* UploadPostView.swift in Sources */,
 				280896E7263FB2E30023A3B5 /* ProfileView.swift in Sources */,
+				289CE0FA2641125100F8E48B /* UserCell.swift in Sources */,
 				289CE0F42640E6AB00F8E48B /* SearchBar.swift in Sources */,
+				289CE0FD2641139B00F8E48B /* UserListView.swift in Sources */,
 				280896DE263FB2340023A3B5 /* MainTabView.swift in Sources */,
 				289CE0F1263FC2D200F8E48B /* FeedCell.swift in Sources */,
 			);
