@@ -18,6 +18,8 @@
 		280896EF263FB31F0023A3B5 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280896EE263FB31F0023A3B5 /* NotificationView.swift */; };
 		280896F7263FB49E0023A3B5 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280896F6263FB49E0023A3B5 /* UploadPostView.swift */; };
 		289CE0F1263FC2D200F8E48B /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F0263FC2D200F8E48B /* FeedCell.swift */; };
+		289CE0F42640E6AB00F8E48B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F32640E6AB00F8E48B /* SearchBar.swift */; };
+		289CE0F72640FF6900F8E48B /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289CE0F62640FF6900F8E48B /* PostGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		280896EE263FB31F0023A3B5 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		280896F6263FB49E0023A3B5 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		289CE0F0263FC2D200F8E48B /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		289CE0F32640E6AB00F8E48B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		289CE0F62640FF6900F8E48B /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,7 @@
 			isa = PBXGroup;
 			children = (
 				280896EA263FB3000023A3B5 /* SearchView.swift */,
+				289CE0F32640E6AB00F8E48B /* SearchBar.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 		280896D8263FB1510023A3B5 /* Items */ = {
 			isa = PBXGroup;
 			children = (
+				289CE0F62640FF6900F8E48B /* PostGridView.swift */,
 			);
 			path = Items;
 			sourceTree = "<group>";
@@ -305,11 +311,13 @@
 			files = (
 				280896E1263FB2820023A3B5 /* FeedView.swift in Sources */,
 				280896CE263FB0900023A3B5 /* ContentView.swift in Sources */,
+				289CE0F72640FF6900F8E48B /* PostGridView.swift in Sources */,
 				280896EF263FB31F0023A3B5 /* NotificationView.swift in Sources */,
 				280896EB263FB3000023A3B5 /* SearchView.swift in Sources */,
 				280896B6263FAF7C0023A3B5 /* instagram_cloneApp.swift in Sources */,
 				280896F7263FB49E0023A3B5 /* UploadPostView.swift in Sources */,
 				280896E7263FB2E30023A3B5 /* ProfileView.swift in Sources */,
+				289CE0F42640E6AB00F8E48B /* SearchBar.swift in Sources */,
 				280896DE263FB2340023A3B5 /* MainTabView.swift in Sources */,
 				289CE0F1263FC2D200F8E48B /* FeedCell.swift in Sources */,
 			);
